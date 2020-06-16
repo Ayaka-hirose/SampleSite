@@ -1,9 +1,8 @@
-/**{
+*{
   margin: 0;
   padding: 0;
-  list-style: none;
-  text-decoration: none;
-}*/
+
+}
 
 #container{
   width: 84%;
@@ -21,8 +20,8 @@ header {
 
   header h1{
     position: absolute;
-    top: 3rem;
-    left: 3rem;
+    top: 2rem;
+    left: 7rem;
     font-size: 2rem;
     color: yellow;
   }
@@ -47,11 +46,11 @@ nav {
 
 main{
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
   section{
-    flex: 3;
+    flex: 5;
     padding: 3rem;
     background: #EEE;
   }
@@ -64,7 +63,7 @@ main{
     }
 
   aside{
-    flex: 1;
+    flex: 2;
     padding: 3rem;
     background: #DDD;
   }
