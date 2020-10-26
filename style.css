@@ -20,8 +20,8 @@ header {
 
   header h1{
     position: absolute;
-    top: 2rem;
-    left: 7rem;
+    top: 7rem;
+    left: 2rem;
     font-size: 2rem;
     color: yellow;
   }
@@ -50,7 +50,7 @@ main{
 }
 
   section{
-    flex: 5;
+    flex: 10;
     padding: 3rem;
     background: #EEE;
   }
@@ -63,7 +63,7 @@ main{
     }
 
   aside{
-    flex: 2;
+    flex: 7;
     padding: 3rem;
     background: #DDD;
   }
